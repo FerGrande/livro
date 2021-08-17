@@ -1,3 +1,7 @@
-image:gitpod
+image: gitpod/workspace-mysql
 
-  file: 
+
+
+tasks:
+
+  - init: mysql -u root -e "CREATE DATABASE applicationdb
